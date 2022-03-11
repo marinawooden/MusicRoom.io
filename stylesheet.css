@@ -1,0 +1,160 @@
+/* 
+font-family: 'Exo 2', sans-serif;
+font-family: 'Fredoka', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+body {
+  background: rgb(30,5,66);
+  background: linear-gradient(0deg, rgba(30,5,66,1) 0%, rgba(112,36,223,1) 100%);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: 'Fredoka', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Exo 2', sans-serif;
+}
+
+h1, h2, h3, h4, em {
+  color: #ffd100;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+header {
+  text-align: center;
+  padding-top: 40px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 0;
+  margin-top: 15px;
+}
+
+header p {
+  margin: 0;
+}
+
+header img {
+  margin-top: 25px;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+nav {
+  height: 20px;
+  padding: 5px;
+  background-color: black;
+  border-bottom: 1px solid #00000085;
+  box-shadow: 0 5px 5px #0000003b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 10pt;
+}
+
+main section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+main section img {
+  max-width: 20%;
+  min-width: 250px;
+}
+
+main section article {
+  margin: 0 20px;
+}
+
+main section article iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+#hello > img {
+  transform: rotate(20deg);
+}
+
+#hello article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+#hello article img {
+  max-width: 80%;
+  align-self: center;
+}
+
+#about {
+  align-items: center;
+}
+
+#mission {
+  text-align: center;
+  display: block;
+}
+
+#mission img {
+  max-width: 50%;
+}
+
+section {
+  padding-top: 40px;
+}
+
+#features figure:first-of-type{
+  margin-top: 0;
+  align-items: flex-start;
+}
+
+#features figcaption {
+  padding: 0 20px;
+}
+
+#features {
+  flex-wrap: wrap;
+}
+
+#features figure {
+  display: flex;
+  margin-top: -150px;
+  align-items: center;
+}
+
+#features figure {
+  min-width: 545px;
+}
+
+footer {
+  height: 200px;
+  background-color: #00000036;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
